@@ -2,6 +2,7 @@ package com.henrry.Api_crud.Service;
 
 import com.henrry.Api_crud.Models.Producto;
 import org.springframework.stereotype.Service;
+import reactor.core.publisher.Flux;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,8 +37,8 @@ public class ProductoService {
      *
      * @return
      */
-    public List<Producto> listarProductos() {
-        return productos;
+    public Flux<Producto> listarProductos() {
+        return Flux.fromIterable(productos);
     }
 
     /**
