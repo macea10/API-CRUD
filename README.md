@@ -10,3 +10,8 @@ Agregar un Producto
 Consultar todos los productos
 
 ![imagen](https://github.com/user-attachments/assets/a32bf471-34bb-4735-a523-f9f810bbaa6d)
+
+
+Test - Productos
+
+![imagen](https://github.com/user-attachments/assets/978f6470-080c-4277-a6e9-a3e0373bdb0a)
